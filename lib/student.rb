@@ -2,7 +2,12 @@ class Student < User
 
 def initialize
 @knowledge = []
-end 
+end
+
+def learn
+a = Teacher.KNOWLEDGE
+@knowledge << a 
+end
 
 
 
