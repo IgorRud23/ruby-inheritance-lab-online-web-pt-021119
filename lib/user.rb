@@ -8,8 +8,8 @@ def initialize
 end
 
 def teach
-  KNOWLEDGE.sample
-end 
+  Teacher.KNOWLEDGE.sample
+end
 
 
 end
