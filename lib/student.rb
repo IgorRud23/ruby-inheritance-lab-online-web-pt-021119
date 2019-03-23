@@ -5,8 +5,8 @@ def initialize
 end
 
 def learn(teach)
-teach = Teacher.KNOWLEDGE
-@knowledge << teach
+teach = Teacher.KNOWLEDGE.sample
+@knowledge << teach 
 end
 
 
