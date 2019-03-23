@@ -8,7 +8,7 @@ def initialize
 end
 
 def teach
-  Teacher.KNOWLEDGE.sample
+  puts KNOWLEDGE.sample
 end
 
 
