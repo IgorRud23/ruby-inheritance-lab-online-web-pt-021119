@@ -9,6 +9,7 @@ teach = Teacher.KNOWLEDGE.select do |words|
   words.random
 @knowledge << teach
 end
+end 
 
 
 
