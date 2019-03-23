@@ -4,8 +4,8 @@ def initialize
 @knowledge = []
 end
 
-def learn
-a = Teacher.teach 
+def learn(teach)
+a = Teacher.teach
 @knowledge << a
 end
 
