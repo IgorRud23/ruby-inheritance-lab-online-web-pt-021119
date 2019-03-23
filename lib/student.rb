@@ -1,3 +1,8 @@
-class Student < User 
+class Student < User
+
+@knowledge = []
+
+
+
 
 end
