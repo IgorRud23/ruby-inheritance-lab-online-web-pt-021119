@@ -5,11 +5,10 @@ def initialize
 end
 
 def learn(teach)
-teach = Teacher.KNOWLEDGE.select do |words|
-  words.random
+teach = Teacher.teach 
 @knowledge << teach
 end
-end 
+end
 
 
 
