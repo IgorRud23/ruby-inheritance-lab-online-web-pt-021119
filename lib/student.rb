@@ -5,7 +5,7 @@ def initialize
 end
 
 def learn(teach)
-teach = Teacher
+  teach = "ghg"
 @knowledge << teach
 end
 
